@@ -23,8 +23,6 @@ You can even change the region where the solution is deployed editing `provider.
 
     $ serverless deploy -v
 
-The server listens to connections at http://localhost:3000
-
 ## Run the tests
 
     $ npm test
