@@ -1,5 +1,5 @@
 {
-   "service": "todos-api-aws-lambda",
+   "service": "todo-api-aws-lambda",
    "frameworkVersion": "2",
    "provider": {
       "apiGateway": {
