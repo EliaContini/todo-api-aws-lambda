@@ -1,0 +1,23 @@
+{
+    "name": "todo-api-aws-lambda",
+    "version": "1.0.0",
+    "description": "A simple REST API to manage todo",
+    "scripts": {
+        "test": "clear; tap --reporter=list --watch"
+    },
+    "keywords": [
+        "aws",
+        "lambda",
+        "mongodb",
+        "serverless"
+    ],
+    "author": "Elia Contini <https://elia.contini.page/>",
+    "license": "MIT",
+    "dependencies": {
+        "mongoose": "5.12.8"
+    },
+    "devDependencies": {
+        "mongodb-memory-server": "^6.9.6",
+        "tap": "^15.0.9"
+    }
+}

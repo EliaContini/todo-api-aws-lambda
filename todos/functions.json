@@ -1,0 +1,65 @@
+{
+   "create": {
+      "handler": "./todos/handler.create",
+      "events": [
+         {
+            "http": {
+               "method": "post",
+               "path": "todos"
+            }
+         }
+      ]
+   },
+   "remove": {
+      "handler": "./todos/handler.remove",
+      "events": [
+         {
+            "http": {
+               "method": "delete",
+               "path": "todos/{id}"
+            }
+         }
+      ]
+   },
+   "get": {
+      "handler": "./todos/handler.get",
+      "events": [
+         {
+            "http": {
+               "method": "get",
+               "path": "todos",
+               "request": {
+                  "parameters": {
+                     "querystrings": {
+                        "is-completed": true,
+                        "sort-by": true
+                     }
+                  }
+               }
+            }
+         }
+      ]
+   },
+   "getById": {
+      "handler": "./todos/handler.getById",
+      "events": [
+         {
+            "http": {
+               "method": "get",
+               "path": "todos/{id}"
+            }
+         }
+      ]
+   },
+   "update": {
+      "handler": "./todos/handler.update",
+      "events": [
+         {
+            "http": {
+               "method": "put",
+               "path": "todos/{id}"
+            }
+         }
+      ]
+   }
+}
