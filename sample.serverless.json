@@ -11,8 +11,8 @@
       "lambdaHashingVersion": 20201221,
       "name": "aws",
       "region": "eu-central-1",
-      "runtime": "nodejs14.x"
+      "runtime": "nodejs14.x",
+      "stage": "dev"
    },
-   "functions": ["${file(./todos/functions.json)}"],
-   "useDotenv": true
+   "functions": ["${file(./todos/functions.json)}"]
 }

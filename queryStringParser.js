@@ -3,7 +3,7 @@
  *
  * @author Elia Contini <https://elia.contini.page/>
  *
- * @description Parse and validate URI query string
+ * @description Parse and validate URL query string
  *
  */
 

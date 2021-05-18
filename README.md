@@ -2,6 +2,8 @@
 
 This solution uses [MongoDB Atlas](https://www.mongodb.com/cloud/atlas), [Serverless Framework](https://www.serverless.com/) and it is configured to be deployed on [AWS Lambda](https://aws.amazon.com/lambda/).
 
+You can read more details about the implementation in my [blog post](https://elia.contini.page/blog/nodejs-mongodb-serverless-aws-lambda-rest-api/).
+
 ## Install dependencies
 
     $ npm install
